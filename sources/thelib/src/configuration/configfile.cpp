@@ -77,10 +77,10 @@ Variant &ConfigFile::GetApplicationsConfigurations() {
 }
 
 bool ConfigFile::LoadLuaFile(string path, bool forceDaemon) {
-	if (!ReadLuaFile(path, CONF_CONFIGURATION, _configuration)) {
-		FATAL("Unable to read configuration file: %s", STR(path));
-		return false;
-	}
+//	if (!ReadLuaFile(path, CONF_CONFIGURATION, _configuration)) {
+//		FATAL("Unable to read configuration file: %s", STR(path));
+//		return false;
+//	}
 	if (forceDaemon)
 		_configuration[CONF_DAEMON] = (bool)true;
 	return Normalize();

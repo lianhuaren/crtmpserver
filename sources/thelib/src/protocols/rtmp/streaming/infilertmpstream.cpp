@@ -22,7 +22,7 @@
 #include "mediaformats/readers/basemediadocument.h"
 #include "mediaformats/readers/flv/flvdocument.h"
 #include "mediaformats/readers/mp3/mp3document.h"
-#include "mediaformats/readers/mp4/mp4document.h"
+//#include "mediaformats/readers/mp4/mp4document.h"
 #include "protocols/rtmp/basertmpprotocol.h"
 #include "streaming/baseoutstream.h"
 #include "protocols/baseprotocol.h"

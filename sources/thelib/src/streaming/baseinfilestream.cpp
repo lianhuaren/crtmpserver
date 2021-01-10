@@ -26,7 +26,7 @@
 #include "mediaformats/readers/basemediadocument.h"
 #include "mediaformats/readers/flv/flvdocument.h"
 #include "mediaformats/readers/mp3/mp3document.h"
-#include "mediaformats/readers/mp4/mp4document.h"
+//#include "mediaformats/readers/mp4/mp4document.h"
 #include "application/baseclientapplication.h"
 #include "mediaformats/readers/ts/tsdocument.h"
 #include "mediaformats/readers/ts/tsframereader.h"

@@ -29,7 +29,7 @@
 
 class BaseMediaDocument {
 protected:
-	MediaFile _mediaFile;
+    File _mediaFile;
 	vector<MediaFrame> _frames;
 	uint32_t _audioSamplesCount;
 	uint32_t _videoSamplesCount;

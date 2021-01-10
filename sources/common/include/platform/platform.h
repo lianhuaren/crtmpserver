@@ -19,6 +19,13 @@
 
 #ifndef _PLATFORM_H
 #define _PLATFORM_H
+#define HAS_MEDIA_FLV 1
+#define HAS_PROTOCOL_RTMP 1
+#define BIG_ENDIAN_BYTE_ALIGNED 1
+#define NET_KQUEUE 1
+#define HAS_PROTOCOL_HTTP 1
+#define OSX 1
+#include <unistd.h>
 
 #include "platform/endianess/endianness.h"
 

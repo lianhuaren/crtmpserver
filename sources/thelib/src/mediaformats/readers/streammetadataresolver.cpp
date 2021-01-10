@@ -19,7 +19,7 @@
 
 #include "mediaformats/readers/streammetadataresolver.h"
 #include "mediaformats/readers/mediaframe.h"
-#include "mediaformats/readers/mp4/mp4document.h"
+//#include "mediaformats/readers/mp4/mp4document.h"
 #include "mediaformats/readers/flv/flvdocument.h"
 #include "mediaformats/readers/mp3/mp3document.h"
 #include "mediaformats/readers/ts/tsdocument.h"
